@@ -1,0 +1,66 @@
+*{
+margin: 0;
+padding:0;
+font-family: century gothic;
+}
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(1.jpg);
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+}
+ul{
+	float: right;
+	list-style-type:none;
+	margin-top:40px;
+	margin-right: 50px;
+}
+ul li{
+	display:inline-block;
+}
+ul li a{
+	text-decoration:none;
+	color: pink;
+	padding: 10px 20px;
+	border:1px transparent#fff;
+	transition: 0.9s ease;
+}
+ul li a:hover{
+	background-color: black;
+	color:#fff;
+}
+.logo img{
+	float: left;
+	width: 110px;
+}
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+.title {
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,50%);
+	color: rgb(90%,70%,80%); 
+}
+.title h1{
+        font-size: 60px
+}
+.button{
+   position: absolute;
+	top:68%;
+	left: 50%;
+	transform: translate(-50%,50%); 
+}
+.btn{
+	border:1px transparent;
+	padding: 20px 20px;
+	color:pink;
+	text-decoration: none;
+	transition: 2s ease;
+}
+.btn:hover{
+	background-color: black;
+	color: white;
+}
